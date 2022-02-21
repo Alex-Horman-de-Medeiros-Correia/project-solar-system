@@ -9,14 +9,16 @@ class Missions extends React.Component {
       <div data-testid="missions">
         <Title headline="Missões" />
 
-        {Missionss
-          .map((element) => (<MissionCard
-            key={ element.name }
-            name={ element.name }
-            year={ element.year }
-            country={ element.country }
-            destination={ element.destination }
-          />))}
+        <section className="mission-all">
+          {Missionss
+            .map((element) => (<MissionCard
+              key={ element.name }
+              name={ element.name }
+              year={ element.year }
+              country={ element.country }
+              destination={ element.destination }
+            />))}
+        </section>
       </div>
     );
   }
