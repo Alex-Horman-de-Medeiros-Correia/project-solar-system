@@ -1,5 +1,5 @@
 body {
-  background-image:url(./images/background.png);
+  background-image: url('./images/background.png');
 }
 
 .App {
@@ -7,24 +7,24 @@ body {
 }
 
 .head {
-  text-align: center;
-  font-size: 30px;
   background-color: rgb(3, 3, 48);
+  font-size: 30px;
+  text-align: center;
   border: 5px solid white;
   border-radius: 20px;
   margin: 20px;
-  width: 40%;
   margin-left: 390px;
+  width: 40%;
 }
 
 .head:hover {
+  background-color: black;
   font-size: 40px;
-  background-color: rgb(0, 0, 0);
   border: 5px solid white;
   border-radius: 20px;
   margin: 20px;
-  width: 50%;
   margin-left: 320px;
+  width: 50%;
 }
 
 h2 {
@@ -35,27 +35,22 @@ h2 {
 .planet-all {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .mission-all {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .missao {
   flex-flow: column;
   margin: 20px;
-  padding: 20px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  padding: 20px;
   border: 3px solid white;
 }
-
-
-
-
-
